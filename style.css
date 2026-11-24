@@ -1,10 +1,70 @@
-.header {
-    background-color: red;
-    color: white;
-    text-align: center;
-    height: 200px;
+* {
+    box-sizing: border-box;
 }
 
-.navi_item {
-    float: left;
+.header {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu-item {
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-right: 1px solid white;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.fastmenu {
+    flex: 3;
+    padding: 30px 30px;
+}
+
+.fastmenu h2 {
+    color: rgb(255, 0, 0);
+}
+
+.fast {
+    border: 1px solid rgb(255, 165, 165);
+    background-color: rgb(255, 240, 240);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    flex: 1;
+    background-color: rgb(255, 240, 240);
+    padding: 30px 30px;
+}
+
+.list h3 {
+    color: rgb(255, 0, 0);
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list li {
+    color: rgb(50, 50, 50);
+}
+
+.footer {
+    background-color: rgb(150, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
